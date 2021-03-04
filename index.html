@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="theme-color" content="rgba(0, 0, 0, 0.7)">
+    <link rel="stylesheet" href="healthcare.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="animate.css">
+    <title>Health care system</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="nav">
+          
+          <div class="nav-left">
+            <a href="#">About Us</a>
+            <a href="#solution">Our Solution</a>
+            <a href="#approach">Our Approach</a>
+            <a href="#contact">Contacts</a>
+            <a href="#testimonial">Testimonial</a>
+      
+          </div>
+      
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About Us</a>
+            <a href="#solution">Our Solution</a>
+            <a href="#approach">Our Approach</a>
+            <a href="#contact">Contacts</a>
+            <a href="#testimonial">Testimonial</a>
+          </div>
+          <span onclick="openNav()" class="opennav">&#9776;</span>
+        
+          <div class="nav-right">Healthcare</div>
+      
+          
+        </div>
+      </header>
+    
+      <div class="background-cover">
+        <img src="images/medical.jpg" alt="medicals_photo" width="100%" max-width="100%">
+      </div>
+
+      <aside>
+        <div class="figure" id="solution">
+          <div class="figure-top">
+            <img src="images/undraw.svg" alt="medicals_photo" width="150px" height="150px">
+          </div>
+          <h3>Lorem ipsum dolor sit </h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam magnam eligendi error quia autem?
+             Illo aperiam numquam nam nemo, sequi voluptatum eligendi debitis laboriosam 
+             quos architecto! sit amet consectetur adipisicing elit. Aliquam magnam eligendi error quia autem? 
+             Illo aperiam Tenetur iste natus beatae.</p>
+        </div>
+        <div class="figure wow fadeIn">
+          <div class="figure-top">
+            <img src="images/undraw1.svg" alt="medicals_photo" width="130px" height="130px">
+          </div>
+          <h3>Lorem ipsum dolor sit </h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam magnam eligendi error quia autem?
+             Illo aperiam numquam nam nemo, sequi voluptatum eligendi debitis laboriosam 
+             quos architecto! sit amet consectetur adipisicing elit. Aliquam magnam eligendi error quia autem? 
+             Illo aperiam Tenetur iste natus beatae.</p>
+        </div>
+        <div class="figure wow rotateIn" id="approach">
+          <div class="figure-top">
+            <img src="images/undraw2.svg" alt="medicals_photo" width="130px" height="130px">
+           
+          </div>
+          <h3>Lorem ipsum dolor sit </h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam magnam eligendi error quia autem?
+             Illo aperiam numquam nam nemo, sequi voluptatum eligendi debitis laboriosam 
+             quos architecto! sit amet consectetur adipisicing elit. Aliquam magnam eligendi error quia autem? 
+             Illo aperiam Tenetur iste natus beatae.</p>
+        </div>
+      </aside>
+
+      <div class="step3 wow rotateIn" id="testimonial">
+        <span style="color: #fff;margin-left: 20px;">Testimonials</span>
+       <!-- Slider main container -->
+     <div class="swiper-container">
+       <!-- Additional required wrapper -->
+       <div class="swiper-wrapper">
+           <!-- Slides -->
+           <div class="swiper-slide">
+             
+             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
+        of type and scrambled it to make a type specimen book. </p>
+     
+           
+           
+           </div>
+           <div class="swiper-slide">
+             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
+                of type and scrambled it to make a type specimen book. </p>
+             
+           </div>
+     
+           <div class="swiper-slide">
+             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
+                of type and scrambled it to make a type specimen book. </p>
+             
+           </div>
+           
+       </div>
+       <!-- If we need pagination -->
+       <div class="swiper-pagination" style="background-color: #fff;"></div>
+     
+       <!-- If we need navigation buttons -->
+       <div class="swiper-button-prev"style="color:#fff;"></div>
+       <div class="swiper-button-next"style="color:#fff;"></div>
+     
+       <!-- If we need scrollbar -->
+       <div class="swiper-scrollbar"></div>
+       <div class="swiper-indicator"></div>
+     </div>
+      </div>
+
+      <div class="subscriptionbox wow rotateIn" id="contact">
+        <h2>Subscribe Us</h2>
+      Get our newsletters right into your inbox by subscribing us.
+      <form autocomplete="off"  action="https://feedburner.google.com/fb/a/mailverify" id="feedform" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=bloggerever', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+      <input gtbfieldid="3" class="betextarea" name="email" onblur="if (this.value == &quot;&quot;) {this.value = &quot;Enter email address here&quot;;}" onfocus="if (this.value == &quot;Enter email address here&quot;) {this.value = &quot;&quot;;}" value="Enter email address here" type="text">
+      <input type="hidden" value="bloggerever" name="uri"><input type="hidden" name="loc" value="en_US">
+      <input class="besubmit" value="Submit" type="submit">
+      </form>
+      </div>
+     
+     
+      <footer>
+        <div class="footer">
+          <div class="contain">
+            <div class="col">
+              <h1>Company</h1>
+              <ul>
+                <li>About</li>
+                <li>Solution</li>
+                <li>Our approach</li>
+                <li>Social</li>
+                <li>Get in touch</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h1>Products</h1>
+              <ul>
+                <li>About</li>
+                <li>Solution</li>
+                <li>Our approach</li>
+                <li>Social</li>
+                <li>Get in touch</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h1>Accounts</h1>
+              <ul>
+                <li>About</li>
+                <li>Solution</li>
+                <li>Our approach</li>
+                <li>Social</li>
+                <li>Get in touch</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h1>Resources</h1>
+              <ul>
+                <li>lorem</li>
+                <li>Redeem code</li>
+                <li>lorem lookup</li>
+                <li>Site map</li>
+                <li>lorem vim</li>
+                <li>google Analytics</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h1>Support</h1>
+              <ul>
+                <li>Contact us</li>
+                <li>Web chat</li>
+                <li>Open ticket</li>
+              </ul>
+            </div>
+            <div class="col social">
+              <h1>Social</h1>
+              <ul>
+                <li><i class=" fa fa-twitter"></i></li>
+                <li><i class="fa fa-instagram"></i></li>
+                <li><i class="fa fa-facebook"></i></li>
+              </ul>
+            </div>
+          <div class="clearfix"></div>
+          </div>
+          </div>
+          <!-- END OF FOOTER -->
+        </div>
+      </footer>
+      
+      
+      <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+      <script src="healthcare.js"></script>
+
+
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+      </body>
+      </html>
+      
+      
+      
+    
+</body>
+</html>
