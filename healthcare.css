@@ -131,7 +131,7 @@ border-bottom: 2px solid #e74c3c;
 .figure p{
   margin-top: 8px;
   color: #ddd;
-  margin-left: 5px;
+  text-align: center;
 }
 
 .step3{
@@ -142,6 +142,31 @@ border-bottom: 2px solid #e74c3c;
   margin-top: 15px;
   margin-left: 15px;
 
+}
+
+.info{
+  width: 100%;
+  background-color: #111;
+  height: 80px;
+  float: left;
+  margin-top: 12px;
+}
+#btn1{
+  margin-left:30rem;
+  background-color: #242343;
+}
+#btn2{
+  float: right;
+  margin-right: 5px;
+  background-color: #818181
+}
+button{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 5px;
+  color: #fff;
 }
 
 .swiper-slide img{
@@ -349,8 +374,9 @@ margin: 40px 0 20px 0;
   .background-cover{
     width: 100%;
     float: left;
-    height: 35vh;
-    background-color: transparent;
+    height: 43vh;
+    background-color: #242343;
+    
 }
   .nav-left{display: none; height: 40px;}
   .nav-left{display: none; height: 40px;}
@@ -373,6 +399,16 @@ margin: 40px 0 20px 0;
   
   }
 
+  #btn1{
+    margin-left:2.2rem;
+    background-color: #242343;
+  }
+  #btn2{
+    float: right;
+    margin-right: 5px;
+    background-color: #818181
+  }
+
 }
 
 
@@ -387,6 +423,16 @@ margin: 40px 0 20px 0;
 }
 
   .figure{ width: 45%;height: 350px; margin-left: 10px;}
+
+  #btn1{
+    margin-left:8rem;
+    background-color: #242343;
+  }
+  #btn2{
+    float: right;
+    margin-right: 5px;
+    background-color: #818181
+  }
 
   .subscriptionbox{ width:95%; margin-top: 10px; height: 220px; margin-left: 3%;}
 
