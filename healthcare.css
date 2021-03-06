@@ -375,7 +375,8 @@ margin: 40px 0 20px 0;
     width: 100%;
     float: left;
     height: 43vh;
-    background-color: #242343;
+    background-image: linear-gradient(to right,rgb(71, 170, 216), rgb(15, 76, 95) );
+    
     
 }
   .nav-left{display: none; height: 40px;}
